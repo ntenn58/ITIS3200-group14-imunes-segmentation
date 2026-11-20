@@ -9,11 +9,11 @@ This repository supports our ITIS 3200 course project on **Network Segmentation 
 * **Group Seed:** 9
 
 ## Planned Structure
-* `topologies/` — IMUNES (`.imn`) network topologies (flat baseline and segmented)
-* `scripts/` — Setup, `iptables` firewall rules, and verification/test scripts
-* `evidence/` — Captured command outputs and test results
-* `docs/` — Project notes, proposal, and report drafts
+* topologies/ — IMUNES (.imn) network topologies (flat baseline and segmented)
+* scripts/ — Setup, iptables firewall rules, and verification/test scripts
+* evidence/ — Captured command outputs and test results
+* docs/ — Project notes, proposal, and report drafts
 
 ## States to Demonstrate
-1. **Broken / Flat Baseline:** All nodes on a single unsegmented network with no cross-traffic restrictions, allowing lateral movement (`nmap` discovery and workstation service access) from the compromised IoT host.
-2. **Hardened / Segmented State:** Isolated segments/VLANs with `iptables` default `DROP` on cross-segment forwarding and only the seed-scoped management exception allowed.
+1. **Broken / Flat Baseline:** All nodes on a single unsegmented network with no cross-traffic restrictions, allowing lateral movement (nmap discovery and workstation service access) from the compromised IoT host.
+2. **Hardened / Segmented State:** Isolated segments/VLANs with iptables default DROP on cross-segment forwarding and only the seed-scoped management exception allowed.
