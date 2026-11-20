@@ -4,9 +4,9 @@
 This repository supports our ITIS 3200 course project on **Network Segmentation Hardening** against lateral movement from a compromised IoT device to a sensitive workstation using **IMUNES**
 
 ## Group Seed & Parameters
-* **Formula:** `(Sum of 4 Members' Student ID Last 2 Digits) mod 18`
-* **Calculation:** `(20 + 34 + 23 + 04) mod 18 = 81 mod 18 = 9`
-* **Group Seed:** `9`
+* **Formula:** (Sum of 4 Members' Student ID Last 2 Digits) mod 18
+* **Calculation:** (20 + 34 + 23 + 04) mod 18 = 81 mod 18 = 9
+* **Group Seed:** 9
 
 ## Planned Structure
 * `topologies/` — IMUNES (`.imn`) network topologies (flat baseline and segmented)
